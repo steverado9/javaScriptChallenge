@@ -1,0 +1,44 @@
+body{
+    width: 30%;
+    margin: auto;
+}
+
+header{
+    margin-top: 30px;
+    text-align: center;
+}
+
+header span{
+    font-size: 3rem;
+}
+
+header a{
+    color: black;
+    cursor: default;
+}
+
+header p{
+    background-color: green;
+    width: 200px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+section .green{
+    background-color: green;
+}
+
+section .yellow{
+    background-color: yellow;
+}
+
+section .red{
+    background-color: red;
+}
+
+section div{
+    padding: 10px;
+    margin: 3px;
+}
