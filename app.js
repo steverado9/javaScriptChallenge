@@ -18,11 +18,12 @@ changeColor();
 function dateAndTime() {
     const dateAndTime = document.querySelector('header p');
     let time = new Date();
+    let month = "October";
     let day = time.getDay();
     let hours = time.getHours().toLocaleString();
     let minutes = time.getMinutes().toLocaleString();
     let seconds = time.getSeconds().toLocaleString();
-    dateAndTime.textContent = `October ${day}, ${year} ${hours}:${minutes}:${seconds}`;
+    dateAndTime.textContent = `${month} ${day}, ${year} ${hours}:${minutes}:${seconds}`;
 }
 setInterval(dateAndTime, 1000);
 ;
