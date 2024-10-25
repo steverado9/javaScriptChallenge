@@ -16,8 +16,8 @@ function changeColor() {
 }
 changeColor();
 //Function to set date and time
+const dateAndTime = document.querySelector('header p');
 function dateAndTime() {
-    const dateAndTime = document.querySelector('header p');
     let time = new Date();
     let monthNum = time.getMonth();
     let day = time.getDay();
